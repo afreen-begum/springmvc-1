@@ -12,7 +12,7 @@ public class UserController {
     @RequestMapping("/")
     public String greeting(ModelMap map){
         User user=new User();
-        user.setName("sruthi");
+        user.setName("afreen");
         map.addAttribute("name",user);
         return "greetings";
     }
